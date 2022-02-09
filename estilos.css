@@ -37,10 +37,15 @@ body {
     font-size: 0.8rem;
 }
 
-.main__contenido__intro {
+.main__texto--font h2 {
     font-family: MonkeyIsland1;
     margin-left: 0.3rem;
     margin-right: 1rem;
+}
+
+.main__texto--margin p {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
 }
 
 */   footer  */

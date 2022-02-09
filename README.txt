@@ -21,3 +21,10 @@ Creacion Monkey1.html
 Creacion Monkey2.html
 Creacion IndiCruzada.html
 Creacion IndiAtlantis.html
+
+Version 0.5
+
+Estructuracion Monkey1.html
+Incorporacion de contenido Monkey1.html
+
+Ajustes tarjetas index.html
