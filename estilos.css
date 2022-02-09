@@ -31,7 +31,7 @@ body {
     height: 350px;
 }
 
-.main__contenido__index, {
+.main__contenido__index {
     font-family: MonkeyIsland1;
     margin: 1.5rem 1.5rem;
     font-size: 0.8rem;
