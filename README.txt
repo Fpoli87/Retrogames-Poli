@@ -28,3 +28,10 @@ Estructuracion Monkey1.html
 Incorporacion de contenido Monkey1.html
 
 Ajustes tarjetas index.html
+
+Version 0.6
+
+Cambios en estilo de fuentes
+Aumento tamaño y colores Menu Navbar
+Cambio en colores Footer
+
