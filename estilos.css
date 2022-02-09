@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(black, rgb(12, 12, 70), rgb(43, 8, 43));
+    color: white;
+}
+
+.main__titulo {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+
+.header__nav__lista {
+    list-style: none;
+    display: inline;
+}
+.carousel-item img {
+    height: 350px;
+}
+
