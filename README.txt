@@ -40,3 +40,9 @@ Cambio en colores Footer
 Formacion de galeria de imagenes
 Reorganizacion de las carpetas organizadoras
 Incoporacion de imagenes
+
+--------- Version 0.8 ---------
+
+Nuevas imagenes en tarjetas index
+Contenido en Monkey2.html
+Incorporacion de nuevos archivos en carpeta img
