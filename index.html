@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="shortcut icon" href="favicongeek.png">
+
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
@@ -109,12 +111,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4 text-center">
+        <div class="row d-flex">
+            <div class="col-xlg-4 col-lg-6 col-md-12 text-center">
                 <img src="assets/img/logo-geek.png" alt="Geek Review">
                 <br>
             </div>
-            <div class="col-8 main__contenido__intro text-center">
+            <div class="col-xlg-8 col-lg-6 col-md-12 main__contenido__intro text-center">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit optio repellat molestias minima non magni tempore nihil placeat fugit modi! Adipisci esse sed, officiis possimus aliquid laboriosam id eum optio.
                 Amet odio laboriosam sit dolorum aspernatur, ipsam deleniti adipisci nulla. Architecto esse atque facilis inventore iusto quidem excepturi nam, ex facere, in non voluptatem aliquam. Ipsa maiores praesentium voluptatum quos!
                 Totam rerum voluptatibus et! Ut perferendis beatae magni dolore aut, voluptates iusto maiores officia minima molestiae, quod quia dicta? Sed beatae accusantium dignissimos ducimus officiis ipsam est et totam molestiae?</p>
@@ -125,45 +127,83 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-lg-2 g-4">
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center align-items-center text-center">
+        <div class="card border-info bg-transparent mb-3 ml-2 mr-2 main__tarjetas">
+          <img src="assets/img/monkey-1-card.jpg" class="card-img-top" alt="The Secret of Monkey Island">
+          <div class="card-body">
+            <h5 class="card-title">The Secret of Monkey Island</h5>
+            <p class="card-text">Inicia la aventura de convertirte en pirata!.</p>
+            <a href="Monkey1.html" class="btn btn-primary">Ingresa aca</a>
+          </div>
+        </div>
+        <div class="card border-info bg-transparent mb-3 ml-2 mr-2 main__tarjetas">
+          <img src="assets/img/monkey2-card.jpg" class="card-img-top" alt="Monkey Island 2: Lechuck Revenge">
+          <div class="card-body">
+            <h5 class="card-title">Monkey Island 2: Lechuck Revenge</h5>
+            <p class="card-text">Las aventuras del temible pirata recien comienzan...!</p>
+            <a href="Monkey2.html" class="btn btn-primary">Ingresa aca</a>
+          </div>
+        </div>
+        <div class="card border-info bg-transparent mb-3 ml-2 mr-2 main__tarjetas">
+          <img src="assets/img/indi1-card.png" class="card-img-top " alt="Indiana Jones y la Ultima Cruzada">
+          <div class="card-body">
+            <h5 class="card-title">Indiana Jones y la Ultima Cruzada</h5>
+            <p class="card-text">Recrea los eventos de la pelicula con el Dr Henry Jones.</p>
+            <a href="IndiCruzada.html" class="btn btn-primary">Ingresa aca</a>
+          </div>
+        </div>
+        <div class="card border-info bg-transparent mb-3 ml-2 mr-2 main__tarjetas">
+            <img src="assets/img/indi2-card.png" class="card-img-top" alt="Indiana Jones y la Ultima Cruzada">
+            <div class="card-body">
+              <h5 class="card-title">Indiana Jones y el Destino de Atlantis</h5>
+              <p class="card-text">Descubre los misterios de la Atlantis.</p>
+              <a href="IndiAtlantis.html" class="btn btn-primary">Ingresa aca</a>
+            </div>
+          </div>
+      </div>
+
+
+
+    <!--<div class="container">
+        <div class="row ">
             <div class="col">
-              <div class="card text-primary border-info bg-transparent mb-3">
+              <div class="card  text-primary border-info bg-transparent mb-3">
                 <a href="Monkey1.html">
-                    <img src="assets/img/guybrush1.png" class="card-img-top img-fluid" alt="Monkey Island 1">
+                    <img src="assets/img/monkey-1-card.jpg" class="card-img-top img-fluid" alt="Monkey Island 1">
                 </a>
                 <div class="card-body">
                   <h5 class="card-title text-center">Monkey Island 1</h5>
-                  <p class="card-text text-center">Inicia la aventura de convertirte en pirata!.</p>
+                  <p class="card-text text-center"></p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card text-primary border-info bg-transparent mb-3" >
                 <a href="Monkey2.html">
-                    <img src="assets/img/guybrush2.png" class="card-img-top img-fluid" alt="Monkey Island 2">
+                    <img src="assets/img/monkey2-card.jpg" class="card-img-top img-fluid" alt="Monkey Island 2">
                 </a>
                 <div class="card-body">
                   <h5 class="card-title text-center">Monkey Island 2</h5>
-                  <p class="card-text text-center">Las aventuras del temible pirata recien comienzan...!</p>
+                  <p class="card-text text-center"></p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card text-primary border-info bg-transparent mb-3" >
                 <a href="IndiCruzada.html">
-                    <img src="assets/img/indi1.png" class="card-img-top img-fluid" alt="Indiana Jones y la Ultima Cruzada">
+                    <img src="assets/img/indi1-card.png" class="card-img-top img-fluid" alt="Indiana Jones y la Ultima Cruzada">
                 </a>
                 <div class="card-body">
                   <h5 class="card-title text-center">Indiana Jones y la Ultima Cruzada</h5>
-                  <p class="card-text text-center">Recrea los eventos de la pelicula con el Dr Henry Jones</p>
+                  <p class="card-text text-center"></p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card text-primary border-info bg-transparent mb-3" >
                 <a href="IndiAtlantis.html">
-                    <img src="assets/img/indi2.png" class="card-img-top img-fluid" alt="Indiana Jones y el Destino de Atlantis">
+                    <img src="assets/img/indi2-card.png" class="card-img-top img-fluid" alt="Indiana Jones y el Destino de Atlantis">
                 </a>
                 <div class="card-body">
                   <h5 class="card-title text-center">Indiana Jones y el Destino de Atlantis</h5>
@@ -172,6 +212,8 @@
               </div>
             </div>
         </div>
+
+    -->
 
     </div>
 

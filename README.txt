@@ -46,3 +46,9 @@ Incoporacion de imagenes
 Nuevas imagenes en tarjetas index
 Contenido en Monkey2.html
 Incorporacion de nuevos archivos en carpeta img
+
+--------- Version 0.9 ---------
+
+Incorporacion Favicon
+Se agrega contenido IndyCruzada.html
+Cambio imagenes Tarjetas Index.html
