@@ -1,6 +1,9 @@
 
 Bienvenidos a Retrogames!
 
+Retrogames es una pagina creada a base de bootstrap 5 complementaria
+para mi cursada de Desarrollo Web de Coderhouse
+
 Review de juegos que marcaron generaciones
 
 --------- Version 0.2 ---------
@@ -52,3 +55,9 @@ Incorporacion de nuevos archivos en carpeta img
 Incorporacion Favicon
 Se agrega contenido IndyCruzada.html
 Cambio imagenes Tarjetas Index.html
+
+--------- Version 1.0 ---------
+
+Contenido en IndiAtlantis.html
+Aumento tamaño fuentes
+Completado contenido en index.html
