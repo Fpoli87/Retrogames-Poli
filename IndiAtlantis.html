@@ -14,50 +14,54 @@
     <title>Retrogames</title>
   </head>
   <body>
-      <header>
+        <header class="">
 
+            
                         <!--  NAVBAR -->
 
-        <div class="container-fluid">
-            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-primary ">
+            <div class="container-fluid p-0">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-primary ">
 
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo-geek1.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto me-3  fs-4">
-                        <li class="nav-item active">
-                        <a class="nav-link text-primary" href="index.html">Inicio </a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-primary" href="./Monkey1.html">Monkey Island</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="./Monkey2.html">Monkey Island 2</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-primary" href="./IndiCruzada.html">Indiana Jones</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-primary" href="./IndiAtlantis.html">Indiana Jones 2</a>
-                        </li>
-                    </ul>
-                </div>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./assets/img/logo-geek1.png" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-3  fs-4">
+                            <li class="nav-item active">
+                            <a class="nav-link text-primary" href="index.html">Inicio </a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-primary" href="./Monkey1.html">Monkey Island</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-primary" href="./Monkey2.html">Monkey Island 2</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-primary" href="./IndiCruzada.html">Indiana Jones</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-primary" href="./IndiAtlantis.html">Indiana Jones 2</a>
+                            </li>
+                        </ul>
+                    </div>
 
-            </nav>
-        </div>
-    </header>
+                </nav>
+            </div>
+        </header> 
 
                        <!--  BODY  -->
-    <div class="container text-center">
-        <h1 class="main__titulo ">Indiana Jones y la Ultima Cruzada</h1>
+
+    <div class="container text-center ">
+        <h1 class="main__titulo text-primary">Indiana Jones y el destinio de Atlantis</h1>
     </div>
 
-    <div class="row">
+                            <!--  CAROUSEL -->
+
+    <div class="row inicio ">
 
         <div class="container col-12 contenedor__carousel--altura">
 
@@ -70,26 +74,26 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
 
-                <div class="carousel-inner">
+                <div class="carousel-inner ">
 
                     <div class="carousel-item active">
                         <a href="">
-                            <img src="assets/img/indi2/indiana-2-logo.png" class="d-block w-100" alt="El Secreto de Monkey Island">
+                            <img src="assets/img/indi2/indiana-2-logo.png" class="d-block w-100" alt="Indiana Jones y el Destino de Atlantis">
                         </a>
                         </div>
                     <div class="carousel-item">
                         <a href="">
-                            <img src="assets/img/indi2/indi-atlantis-2.jpg" class="d-block w-100" alt="Monkey Island">
+                            <img src="assets/img/indi2/indi-atlantis-2.jpg" class="d-block w-100" alt="Indiana Jones y el Destino de Atlantis">
                         </a>
                     </div>
                     <div class="carousel-item">
                         <a href="">
-                            <img src="assets/img/indi2/indi-atlantis-3.jpg" class="d-block w-100" alt="Monkey Island">
+                            <img src="assets/img/indi2/indi-atlantis-3.jpg" class="d-block w-100" alt="Indiana Jones y el Destino de Atlantis">
                         </a>
                         </div>
                     <div class="carousel-item">
                         <a href="">
-                            <img src="assets/img/indi2/indi-atlantis-4.jpg" class="d-block w-100" alt="Monkey Island">
+                            <img src="assets/img/indi2/indi-atlantis-4.jpg" class="d-block w-100" alt="Indiana Jones y el Destino de Atlantis">
                         </a>
                     </div>
                 </div>
@@ -104,6 +108,9 @@
             </div>
         </div>
     </div>
+
+                                <!--  MAIN  -->
+
     <div class="row">
 
         <div class="container section__intro ms-2 w-100 ">
@@ -124,7 +131,7 @@
 
         <h2 class="mt-4">"-Tengo un mensaje para el Coronel Kerner. Déjame pasar."</h2>
 
-        <h2>"-Lo entregaré yo mismo. ¿Cuál es el mensaje?"</h2>
+        <h2 class="guard">"-Lo entregaré yo mismo. ¿Cuál es el mensaje?"</h2>
         
         <h2 class="mb-4">“-Dile a Kerner que hay un idiota vigilando la puerta."</h2>
 
@@ -146,7 +153,7 @@
             <p class="fs-3">Por último, Indiana Jones and the Fate of Atlantis ofrece varios finales. No son muchos o muy variados, pero algunos de ellos están condicionados por determinados hitos o puzzles que dejamos sin resolver. A lo que hay que sumar que en cada partida somos puntuados con un IQ (Indy Quotient) que evaluaba nuestra manera de desenvolvernos en la aventura.</p>
         </div>
 
-        <h2 class="mt-2">"Vamos, señor. Tengo algunas palabras para hablar delicadamente contigo."</h2>
+        <h2 class="mt-2 sophia">"Vamos, señor. Tengo algunas palabras para hablar delicadamente contigo."</h2>
 
         <h2 class="mb-4">"- Yo diría que ya era hora."</h2>
  
@@ -162,7 +169,7 @@
         </div>
         <h2 class="mt-2">- ¿Suficientemente frío para ti?"</h2>
 
-        <h2 class="mb-4">"- Incluso más frío que mis sentimientos hacia usted, Dr. Jones"</h2>
+        <h2 class="mb-4 sophia">"- Incluso más frío que mis sentimientos hacia usted, Dr. Jones"</h2>
 
         <div class="container col main__texto--margin">
             <p class="fs-3">¿Volveremos a ver al Indy que nos maravilló en los videojuegos? Bueno, tras el tratamiento en clave de LEGO por el que han pasado casi todas las grandes sagas cinematográficas, va tocando. Con todo, cruzamos los dedos para que Disney arrope el lanzamiento de la quinta película de Indiana Jones, la cual llegará a los cines el 29 de julio de 2022, con un juego a la altura de su mejor aventura gráfica. O, al menos, la iguale</p>
@@ -197,6 +204,7 @@
 
     </section>
 
+                             <!--  GALERIA  -->
 
     <section class="container">
         <div class="text-center pt-5">

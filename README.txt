@@ -61,3 +61,9 @@ Cambio imagenes Tarjetas Index.html
 Contenido en IndiAtlantis.html
 Aumento tamaño fuentes
 Completado contenido en index.html
+
+--------- Version 1.1 ---------
+
+Organizacion del codigo html y css
+Colores en Subtitulos
+
